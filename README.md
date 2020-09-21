@@ -49,4 +49,4 @@ Follow these instructions to understand how to get started.
     - To run this notebook successfully you must have created a schema and imported your data set
     - Run this notebook read REFIT data and train a predictive model
     - At the end of this notebook your model is serialized to ONNX format and sent to the REFIT inference engine
-    - If you receive `{"requestSuccessful":true}` when calling the `refit.save` function, your model was successfully sent to the inference engine. Any data that is ingested for your project will now use this model to perform predictions
+    - If you receive `'Model Published'` when calling the `refit.save` function, your model was successfully sent to the inference engine. Any data that is ingested for your project will now use this model to perform predictions
