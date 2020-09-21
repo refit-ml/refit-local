@@ -32,7 +32,7 @@ Follow these instructions to understand how to get started.
     - Run this notebook to install your schema into REFIT
     - If you receive `{"requestSuccessful":true}` when calling the `create_project` function, your schema was successfully created in REFIT 
 
-## Importing a REFIT Dataset
+### Importing a REFIT Dataset
 
 
 - Open the `example_import.ipynb` notebook in the `notebooks` directory
@@ -42,7 +42,7 @@ Follow these instructions to understand how to get started.
     - If you receive `{"requestSuccessful":true}` from  REFIT, then your import jobs have begun
 
 
-## Train a REFIT Model
+### Train a REFIT Model
 
 - Open the `example_train.ipynb` notebook in the `notebooks` directory
     - This is an example on how to train and deploy a model to REFIT
