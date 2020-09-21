@@ -1,6 +1,6 @@
 #!/bin/sh
 
-export REFIT_VERSION="BETA-0.10"
+export REFIT_VERSION="BETA-0.11"
 
 docker-compose up -d cassandra refit-pulsar-standalone minio
 
@@ -10,3 +10,8 @@ sleep 30
 docker-compose up -d
 
 unset REFIT_VERSION
+
+
+echo "========================== REFIT Started =================================="
+echo "Watch the notebook logs to get your Jupyter Notebook URL, Run the following"
+echo "docker-compose logs -f notebook"

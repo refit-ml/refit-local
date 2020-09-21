@@ -132,3 +132,4 @@ refit/
 .jupyter/
 .DS_Store
 .ipython
+.bash_history
