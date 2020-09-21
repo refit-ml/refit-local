@@ -170,6 +170,7 @@ services:
       MINIO_BUCKET_IMPORT: refit-import
       MINIO_BUCKET_MODELS: refit-models
       MINIO_BUCKET_SCHEMA: refit-schema
+      INGESTION_HOST: ingestion
       ENCRYPTION_KEY: keyboard_cat
       REFIT_DEMO: "false"
       PROJECT: ingestion
