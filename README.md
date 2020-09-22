@@ -50,3 +50,13 @@ Follow these instructions to understand how to get started.
 - Run this notebook read REFIT data and train a predictive model
 - At the end of this notebook your model is serialized to ONNX format and sent to the REFIT inference engine
 - If you receive `'Model Published'` when calling the `refit.save` function, your model was successfully sent to the inference engine. Any data that is ingested for your project will now use this model to perform predictions
+
+# View Grafana Data
+
+- In your browser navigate to `http://localhost:8000`
+- Log in using the following credentials
+    - user: admin 
+    - password: admin
+- Select the REFIT Dashboard
+- This will load the demo dataset dashboard.
+- The time window and sensor in this dashboard are chosen to show you a specific piece of the synthetic data set. You can use this dashboard as a base to create your own dashboards

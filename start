@@ -5,7 +5,7 @@ export REFIT_VERSION="BETA-0.11"
 docker-compose up -d cassandra refit-pulsar-standalone minio
 
 echo "Wait for core services to bootstrap"
-sleep 30
+sleep 45
 
 docker-compose up -d
 

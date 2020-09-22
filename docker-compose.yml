@@ -18,6 +18,11 @@ services:
       - cassandra:/bitnami
   grafana:
     image: grafana/grafana:7.1.1
+    volumes:
+      - ./grafana/provisioning/:/etc/grafana/provisioning
+      - ./grafana/config.ini:/etc/grafana/config.ini
+      - ./grafana/dashboards/:/var/lib/grafana/dashboards
+
     ports:
       - 8000:3000
     user: "104"
@@ -139,7 +144,7 @@ services:
   notebook:
     image: cdliotprototype/cdl-refit-notebook:${REFIT_VERSION}
     volumes:
-      - ./:/home/docker_worker/
+      - ./jupyter:/home/docker_worker/
     ports:
       - 8888:8888
     command: "start-notebook.sh"
