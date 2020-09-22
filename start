@@ -1,6 +1,6 @@
 #!/bin/sh
 
-export REFIT_VERSION="BETA-0.12"
+export REFIT_VERSION="BETA-0.13"
 
 docker-compose up -d cassandra refit-pulsar-standalone minio
 
