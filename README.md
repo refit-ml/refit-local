@@ -4,6 +4,11 @@ This REPO shows you how to get started with writing REFIT notebooks. This will r
 
 This is a good project base, so feel free to fork this REPO to get going
 
+
+## Architecture
+
+![Architecture diagram](./img/REFIT-Services.png)
+
 ## To run the refit infrastructure locally, execute the `start` script
 
 - `chmod +x ./start`
